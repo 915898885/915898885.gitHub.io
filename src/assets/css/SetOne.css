@@ -1,0 +1,62 @@
+.Set{
+	width:6.4rem;
+	font-size:0.32rem;
+	background-color: #fff;
+	color:#444;
+}
+.Set .noImg{
+	width:6.4rem;
+	height:0.8rem;
+	line-height: 0.8rem;
+}
+.Set .noImg .fonts{
+	float:left;
+	margin-left:0.2rem;
+}
+.Set .noImg .set1,.Set .Hei .set2{
+	float:right;
+	margin-right:0.1rem;
+	height:0.8rem;
+	width:0.8rem;
+}
+.Set .noImg .set1 img,.Set .Hei .set2 img{
+	width:0.8rem;
+	height:0.8rem;
+}
+.Set .noImg .set1.active,.Set .inTell .set2.active{
+	background:url('../images/set_open.jpg') no-repeat;
+	background-size:100%;
+}
+.Set .Hei{
+	width:6.4rem;
+	height:1.0rem;
+	overflow: hidden;
+}
+.Set .Hei div{
+	margin:0.15rem 0 0 0.2rem;
+}
+.Set .Hei .fonts{
+	float:left;
+}
+.Set .inTell{
+	border-width:0.02rem 0 0.02rem 0;
+	border-style:solid;
+	border-color:#ccc;
+}
+.Set .address .set2 img{
+	width:0.6rem;
+	height:0.6rem;
+	margin:0.08rem 0.2rem 0 0;
+}
+#setOne .sub{
+	width:5.8rem;
+	margin:0.5rem auto;
+	background-color:#119aef;
+	height:0.7rem;
+	border-radius: 0.04rem;
+	font-size:0.35rem;
+	color:#fff;
+	text-align: center;
+	line-height: 0.7rem;
+	margin-bottom:5.5rem;
+}

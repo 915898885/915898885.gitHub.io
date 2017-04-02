@@ -1,0 +1,22 @@
+#banner{
+	width:6.4rem;
+	font-size:0.4rem;
+	color:#2d2d2d;
+	overflow: hidden;
+}
+#banner ul{
+	overflow: hidden;
+}
+#banner ul li{
+	float:left;
+	width:1.066rem;
+	text-align: center;
+	height:0.5rem;
+	line-height: 0.5rem;
+	padding: 0.05rem 0;
+	font-size:0.25rem;
+}
+#banner ul li img{
+	height:0.25rem;
+}
+

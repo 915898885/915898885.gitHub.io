@@ -1,0 +1,43 @@
+body{
+	
+}
+#menu{
+	width:6.4rem;
+}
+.menu{
+	width:6.4rem;
+	height:0.8rem;
+	background-color:#119aef;
+	line-height: 0.8rem;
+}
+.menu a{
+	display: inline-block;
+	height:0.5rem;
+	width:0.5rem;
+	margin:0.15rem 0 0 0.1rem;
+	float:left;
+}
+.menu span{
+	font-size:0.35rem;
+	display: inline-block;
+	margin-left:2.3rem;
+	color:#fff;
+}
+.chioce{
+	width:6rem;
+	height:0.6rem;
+	line-height: 0.6rem;
+	margin:0.2rem auto;
+	display: flex;
+	border:1px solid #119aef;
+	border-radius: 0.04rem;
+}
+.chioce div{
+	flex:1;
+	text-align: center;
+	font-size:0.3rem;
+}
+.chioce div.active{
+	background-color:#119aef;
+	color:#fff;
+}
