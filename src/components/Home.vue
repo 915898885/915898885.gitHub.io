@@ -21,35 +21,6 @@
 		<BannerView></BannerView>
 		<!-- slider -->
 		<lunboView></lunboView>
-			<!-- <ul>
-				<li><img src="../assets/images/slide1.jpg">
-					<div class="text-box">
-						<h2>这里曾接待过国家领导人</h2>
-					</div>
-				</li>
-				<li><img src="../assets/images/slide2.jpg">
-					<div class="text-box">
-						<h2>英媒评英格兰历届球衣TOP40</h2>
-					</div>
-				</li>
-				<li><img src="../assets/images/slide3.jpg">
-					<div class="text-box">
-						<h2>95后超模骑鲨鱼玩狂野</h2>
-					</div>
-				</li>
-				<li><img src="../assets/images/slide4.jpg">
-					<div class="text-box">
-						<h2>从汶川回来后 她成了女催眠师</h2>
-					</div>
-				</li>
-			</ul> -->
-			<!-- <ol>
-				<li class="active"></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ol> -->
-		
 		<!-- content -->
 		<div id="content">
 		<ul>
@@ -308,13 +279,13 @@
 				var _this=this;
 				this.$http.get('./src/data/home.data').then(function(res){
 					_this.arrList=res.data;
-					console.log(_this.arrList);
+					
 				}).catch(function(err){
 					console.log(err);
 				})
 			},
 			
-		}
+		},
 	}
 </script>
 <style>

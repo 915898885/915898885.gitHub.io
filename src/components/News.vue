@@ -2,18 +2,12 @@
 	<div>
 	<!-- header -->
 		<div id="News">
-			<router-link class="icon" to='/home'><img src="../assets/images/lastHome.png" height="32" width="32" ></router-link>
+			<router-link class="icon" to='/home'><img src="../assets/images/page_top.png" height="48" width="48" ></router-link>
 			<div class="edition">
 				<p>新闻</p>
 			</div>
 			<div class="mine">
-<!-- 				<li><img src="../assets/img/season.png"></li>
-				<router-link tag="li" to="/login">
-					<img src="../assets/img/mine.png">
-				</router-link>
-				<router-link tag="li" to="/menu">
-					<img src="../assets/img/more.png">
-				</router-link> -->
+				<img src="../assets/images/caidan.png" height="48" width="48">
 			</div>
 		</div>
 		<!-- banner -->
@@ -25,12 +19,12 @@
 		<ul>
 			<div class="sub">
 				<div class="left1"></div>
-				<strong>今日要闻</strong>
+				<strong>头条新闻</strong>
 			</div>
 			<li class="content_li">
 				<dt>
-					<img src="../assets/images/xidada.jpg" v-show="xianshi" height="90" width="120">
-					<dd>习近平的法治"金句"
+					<img src="../assets/images/toutiao1.jpg" v-show="xianshi" height="90" width="120">
+					<dd>打黑工背尸体 他们比反腐剧的外逃副市长更惨
 						<div>
 							<span class="mess">201</span>
 							<span>

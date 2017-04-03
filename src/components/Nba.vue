@@ -2,12 +2,12 @@
 	<div>
 	<!-- header -->
 		<div id="News">
-			<router-link class="icon" to='/home'><img src="../assets/images/lastHome.png" height="32" width="32" ></router-link>
+			<router-link class="icon" to='/home'><img src="../assets/images/page_top.png" height="48" width="48" ></router-link>
 			<div class="edition">
 				<p>NBA</p>
 			</div>
 			<div class="mine">
-
+				<img src="../assets/images/caidan.png" height="48" width="48">
 			</div>
 		</div>
 		<!-- banner -->
@@ -19,7 +19,7 @@
 		<ul>
 			<div class="sub">
 				<div class="left1"></div>
-				<strong>今日要闻</strong>
+				<strong>今日赛事</strong>
 			</div>
 			<li class="content_li">
 				<dt>

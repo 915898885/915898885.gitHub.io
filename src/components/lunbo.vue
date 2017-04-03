@@ -14,15 +14,27 @@
 				<div class="swiper-slide">
 					<img src="../assets/images/slide4.jpg">
 				</div>
+				<div class="swiper-slide">
+					<img src="../assets/images/new1.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="../assets/images/new2.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="../assets/images/new3.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="../assets/images/new4.jpg">
+				</div>
 			</div>
 			<div class="swiper-pagination"></div>
 		</div>
 	</div>
 </template>
-<style>
+<style scoped>
 	@import "../assets/css/lunbo.css"
 </style>
-<script>
+<script scoped>
 	export default{
 		mounted(){
 			this.slider();

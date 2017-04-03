@@ -167,5 +167,7 @@
 
 
 
-
-
+.saishi{
+	background-color: #f00;
+	overflow: hidden;
+}

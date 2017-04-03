@@ -2,24 +2,26 @@
 	<div>
 	<!-- header -->
 		<div id="News">
-			<router-link class="icon" to='/home'><img src="../assets/images/lastHome.png" height="32" width="32" ></router-link>
+			<router-link class="icon" to='/home'><img src="../assets/images/page_top.png" height="48" width="48" ></router-link>
 			<div class="edition">
 				<p>财经</p>
 			</div>
 			<div class="mine">
-
+				<img src="../assets/images/caidan.png" height="48" width="48">
 			</div>
 		</div>
 		<!-- banner -->
 		<BannerView></BannerView>
 		<!-- slider -->
-			<lunboView></lunboView>
+		<basketView></basketView>
 		<!-- content -->
 		<div id="content1">
 		<ul>
 			<div class="sub">
-				<div class="left1"></div>
-				<strong>今日要闻</strong>
+				<div class="searchFanan">
+					<input class="input" type="text" placeholder="搜索股票/新闻">
+					<div class="zixuan">自选股</div>
+				</div>
 			</div>
 			
 			<li class="content_li">
@@ -220,14 +222,16 @@
 		</ul>
 		</div>
 	</div>
+	</div>
+	</div>
 </template>
 <script>
 	import BannerView from './Banner.vue'
-	import lunboView from './lunbo.vue'
+	import basketView from './basket.vue'
 	export default{
 		components:{
 			BannerView,
-			lunboView
+			basketView
 		},
 		data(){
 			return{
