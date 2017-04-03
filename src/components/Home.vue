@@ -24,7 +24,7 @@
 		<!-- content -->
 		<div id="content">
 		<ul>
-			<div class="sub">
+			<div class="sub1">
 				<div class="left1"></div>
 				<strong>今日要闻</strong>
 			</div>
@@ -125,7 +125,7 @@
 		</ul>
 		<!-- 猜你喜欢 -->
 		<ul>
-			<div class="sub">
+			<div class="sub1">
 				<div class="left1"></div>
 				<strong>猜你喜欢</strong>
 			</div>

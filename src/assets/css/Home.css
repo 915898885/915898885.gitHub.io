@@ -91,20 +91,21 @@
 #content{
 	width:6.4rem;
 }
-.sub{
+
+.sub1{
 	height:0.65rem;
 	width:6.4rem;
 	border-bottom:0.02rem solid #dfdfdf;
 	clear:both;
 }
-.sub .left1{
+.sub1 .left1{
 	background-color: #129bf0;
 	float:left;
 	height:0.4rem;
 	width:0.07rem;
 	margin-top:0.15rem;
 }
-.sub strong{
+.sub1 strong{
 	height:0.7rem;
 	line-height: 0.7rem;
 	font-size:0.35rem;
