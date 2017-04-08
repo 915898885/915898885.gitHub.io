@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+  	<loading v-if="loading"></loading>
   	<img src='./assets/img/top.png' @click="goTop" to="./home" v-show="topShow" height="48" width="48">
   	<transition>
   		<router-view></router-view>
@@ -8,13 +9,14 @@
 </template>
 <script>
 import HomeView from './components/Home.vue'
+import loading from './components/loading/Loading.vue'
 import {mapGetters,mapActions} from 'vuex'
 export default{
 	components:{
-		HomeView
+		HomeView,
 	},
 	computed:mapGetters([
-
+		'loading'
 	]),
 	data(){
 		return{
